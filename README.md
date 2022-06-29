@@ -50,4 +50,70 @@ A set of Jupyter Notebooks showing the behavior and impact when using MLR, Tikh.
 ### Relation to my thesis
 Quick empirical introduction/recap of the experiments and intuitions presented in Chapters 1, 3 and 4. Note that the implementation of AdaCap here does not correspond to the stand-alone FFNN_InitFitPredict but instead to AdaCap article experiments replication. The main reason is that some notebooks are duplicates from the two repositories.
 ### Main requirements
-matplotlib (mandatory), pytorch (mandotory except for a)) 
+matplotlib (mandatory), pytorch (mandotory except for a)) , cuda & gpu (optional)
+
+# Contribution 4 : [Step-by-step Deep learning introduction](ToBeAdded)
+### Type : Tutorial
+### Targeted audience
+French students, python Beginners. Readers of Chapter 2 of the thesis.
+### Description
+A Jupyter Notebooks providing the code extracts included in Chapter 2, which is a step-by-step introduction to deep learning from linear regression in french. Originality of the tutorial is that a) the code is also written in French from A to Z, b) variable names correspond to the notations used in the corresponding Chapter, c) it requires minimal set up and proficiency in python as the only required library is numpy.
+### Relation to my thesis
+It corresponds to the code extracts provided in Chapter 2, with some minor changes corresponding to corrections. 
+### Main requirements
+numpy (mandatory)
+
+# Contribution 5 : [MLR article experiments replication](ToBeAdded)
+### Type : Supplementary material
+### Targeted audience
+Researchers, python non-Beginners. Referees of Chapter 3 of the thesis or the corresponding article submissions. 
+### Description
+A github repository containing instructions and source code to replicate the experiments presented in Chapter 3.
+### Relation to my thesis
+It corresponds to the figures, tables, experiments section and appendix section of Chapter 3. Minor changes correspond to cosmetic improvement for readability, but the goal is that results are equal or as close as possible to the original version. Recorded times will vary with the machine used of course. 
+### Main requirements
+scikit-learn (mandatory)
+
+# Contribution 6 : [AdaCap article experiments replication](ToBeAdded)
+### Type : Supplementary material
+### Targeted audience
+Researchers, python non-Beginners. Referees of Chapter 4 of the thesis or the corresponding article submissions. 
+### Description
+A github repository containing instructions and source code to replicate the experiments presented in Chapter 4. Code to generate figures is provided in notebooks and may take at most a few minutes to run (with a gpu). Code to replicate benchmark is provided in bash and python and may take at least a few days to run (with a HPC cluster).
+### Relation to my thesis
+It corresponds to the figures, tables, experiments section and appendix section of Chapter 4. Minor changes correspond to cosmetic improvement for readability, but the goal is that obtained results are equal or as close as possible to the original version. Recorded times will vary with the machine used of course. 
+### Main requirements
+pytorch, catboost, xgboost, lightgbm, py-earth (mandatory), cuda & gpu & a cluster (optional)
+
+# Contribution 7 : [MarginalContrastiveDiscrimination article experiments replication](ToBeAdded)
+### Type : Supplementary material
+### Targeted audience
+Researchers, seasoned python practionners. Referees of Chapter 5 of the thesis or the corresponding article submissions. 
+### Description
+A github repository containing instructions and source code to try to replicate the experiments presented in Chapter 5. Please note that a) it is not possible to obtain the exact results depicted in the corresponding paper for all benchmarked methods for reasons detailed in the "Relation to my thesis" paragraph below, b) it is very hard to run all the experiments in one go for reasons detailed in the "Main requirements" paragraph below. However, these issues concern results from other methods, results obtained with MCD are fully reproducible. 
+### Relation to my thesis
+It corresponds to the figures, tables, experiments section and appendix section of Chapter 5. Major changes correspond to increased reproductibility. Minor changes correspond to cosmetic improvements for readability. For some methods (but not MCD), it is not actually possible to completely control the sources of randomness by fixing the value of the seed. In these cases, results might vary (but I do not think this could lead to major changes in how the results should be interpreted). Likewise, recorded times for some methods will vary greatly between runs, even on the same machine. See the repository README.md file for more details. 
+### Main requirements
+Advanced knowledge on how cuda, tensorflow, edward and pytorch interact with each other, how compatibility issues between packages can be solved, and how to manually change source code from a library. See the repository README.md file for more details.
+
+# Contribution 8 (minor) : [Automated visualization of MLP architectures](ToBeAdded)
+### Type : Stand-alone tool
+### Targeted audience
+Teachers, python Beginners and Experts. People who are creating teaching material for deep learning courses. Code is a mixture of french, english and frenglish, but speaking any of the two languages should be sufficient.
+### Description
+Quick tool to generate in python good looking visualizations of multilayer perceptrons with varying width and depth. Activation functions are provided as python functions, and their representations are generated dynamically.
+### Relation to my thesis
+Used to generate a figure in Chapter 2. Notations used correspond to those used in Chapter 2. Input arguments correspond to those used in the Step-by-step Deep learning introduction project.
+### Main requirements
+matplotlib (mandatory)
+
+# Contribution 9 (minor) : [Continuous target stratification for train_test_split](ToBeAdded)
+### Type : Stand-alone tool
+### Targeted audience
+Teachers, python Beginners and Experts. People who are creating teaching material for deep learning courses.
+### Description
+Simple function to stratify a continuous vector, such that the train_test_split function from scikit-learn will generate splits with balanced repartition of high and low target values in each fold. It is included in the FFNN_InitFitPredict project but can have other applications besides deep learning. It is partially based on an answer from cross-validated.com
+### Relation to my thesis
+It is one part of the "FeedForwardNeuralNetwork" class, which is used in Chapter 4 and 5. 
+### Main requirements
+scikit-learn (mandatory)
