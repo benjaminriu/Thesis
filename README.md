@@ -1,8 +1,9 @@
+# Contribution list
+
 ### (French version below)
+### Disclaimer: this is a rough draft containing raw informations about my code contributions in my thesis.
 
-# Disclaimer: this is a rough draft containing raw informations about my code contributions in my thesis.
-
-tl;dr:
+### tl;dr:
 - Stand-alone, Ch4, Ch5 : [FFNN_InitFitPredict](https://github.com/benjaminriu/FFNN_InitFitPredict)
 - Stand-alone, Ch5 : [MarginalContrastiveDiscrimination](ToBeAdded)
 - Ch3, Ch4 : [AdaCap Demo](ToBeAdded)
