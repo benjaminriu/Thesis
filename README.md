@@ -2,7 +2,6 @@
 
 # Disclaimer: this is a rough draft containing raw informations about my code contributions in my thesis.
 
-```
 tl;dr:
 - Stand-alone, Ch4, Ch5 [FFNN_InitFitPredict](https://github.com/benjaminriu/FFNN_InitFitPredict)
 - Stand-alone, Ch5 [MarginalContrastiveDiscrimination](ToBeAdded)
@@ -13,9 +12,10 @@ tl;dr:
 - Ch5 [MarginalContrastiveDiscrimination article experiments replication](ToBeAdded)
 - Stand-alone, Ch2 [Automated visualization of MLP architectures](ToBeAdded) (code in French)
 - Stand-alone, Ch4, Ch5 [Continuous target stratification for train_test_split](ToBeAdded)
-```
 
+```
 The goal of this repository is to provide the links and a quick description for the main projects on which I worked during my thesis. For informations do not hesitate to either raise an issue on git or send an email to riubenjamin at gmail dot com. Contributions are somewhat sorted by order of importance/usefullness. 
+```
 
 # Contribution 1 : [FFNN_InitFitPredict](https://github.com/benjaminriu/FFNN_InitFitPredict)
 ### Type : Stand-alone tool
