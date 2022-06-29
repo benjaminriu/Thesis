@@ -11,11 +11,11 @@ et l’estimation de densité conditionnelle
 | Stand-alone, Ch4, Ch5 | [FFNN_InitFitPredict](https://github.com/benjaminriu/FFNN_InitFitPredict) | english |
 | Stand-alone, Ch5 | [MarginalContrastiveDiscrimination](ToBeAdded) | english |
 | Ch3, Ch4 | [MLRTikhAdaCap Demo](ToBeAdded) | english |
-| Ch2 | [Step-by-step Deep learning introduction](ToBeAdded) | (code in French) |
+| Ch2 | [Step-by-step Deep learning introduction](ToBeAdded) | French |
 | Ch3 | [MLR article experiments replication](ToBeAdded)| english |
 | Ch4 | [AdaCap article experiments replication](ToBeAdded)| english |
 | Ch5 | [MarginalContrastiveDiscrimination article experiments replication](ToBeAdded) | english |
-| Stand-alone, Ch2 | [Automated visualization of MLP architectures](ToBeAdded) | (code in French) |
+| Stand-alone, Ch2 | [Automated visualization of MLP architectures](ToBeAdded) | French |
 | Stand-alone, Ch4, Ch5 | [Continuous target stratification for train_test_split](ToBeAdded) | english |
 
 
