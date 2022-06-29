@@ -6,15 +6,17 @@ et l’estimation de densité conditionnelle
 ### Disclaimer: this is a rough draft containing raw informations about my code contributions in my thesis.
 
 ### tl;dr:
-| Stand-alone, Ch4, Ch5 | [FFNN_InitFitPredict](https://github.com/benjaminriu/FFNN_InitFitPredict)|
-| Stand-alone, Ch5 | [MarginalContrastiveDiscrimination](ToBeAdded)|
+| Relevance | Repository |
+| ----------- | ----------- |
+| Stand-alone, Ch4, Ch5 | [FFNN_InitFitPredict](https://github.com/benjaminriu/FFNN_InitFitPredict) |
+| Stand-alone, Ch5 | [MarginalContrastiveDiscrimination](ToBeAdded) |
 | Ch3, Ch4 | [MLRTikhAdaCap Demo](ToBeAdded)
-| Ch2 | [Step-by-step Deep learning introduction](ToBeAdded) (code in French)|
+| Ch2 | [Step-by-step Deep learning introduction](ToBeAdded) (code in French) |
 | Ch3 | [MLR article experiments replication](ToBeAdded)|
 | Ch4 | [AdaCap article experiments replication](ToBeAdded)|
-| Ch5 | [MarginalContrastiveDiscrimination article experiments replication](ToBeAdded)|
-| Stand-alone, Ch2 | [Automated visualization of MLP architectures](ToBeAdded) (code in French)|
-| Stand-alone, Ch4, Ch5 | [Continuous target stratification for train_test_split](ToBeAdded)|
+| Ch5 | [MarginalContrastiveDiscrimination article experiments replication](ToBeAdded) |
+| Stand-alone, Ch2 | [Automated visualization of MLP architectures](ToBeAdded) (code in French) |
+| Stand-alone, Ch4, Ch5 | [Continuous target stratification for train_test_split](ToBeAdded) |
 
 
 The goal of this repository is to provide the links and a quick description for the main projects on which I worked during my thesis. Contributions are somewhat sorted by order of importance/usefullness. For backward compatibility and reproductibility reasons there are nearly duplicates of some files with small variations which are explained below. By default stand-alone versions should be prefered. For informations / remarks/ constructive criticisms, do not hesitate to either raise an issue on git or send an email to riubenjamin at gmail dot com.
