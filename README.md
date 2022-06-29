@@ -1,4 +1,4 @@
-# Code contributions list for the thesis "Comparison between joint and marginal laws for regression and conditional density estimation through label permutations" written by Benjamin Riu at Ecole Polytechnique (to be defended soon). 
+# Code contributions list for the thesis "Comparison between joint and marginal laws through label permutations for regression and conditional density estimation" written by Benjamin Riu at Ecole Polytechnique (to be defended soon). 
 ### (French version below)
 ### Disclaimer: this is a rough draft containing raw informations about my code contributions in my thesis.
 
