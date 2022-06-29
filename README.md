@@ -1,4 +1,4 @@
-### French version below
+### (French version below)
 
 # Disclaimer: this is a rough draft containing raw informations about my code contributions in my thesis.
 
