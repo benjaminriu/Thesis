@@ -1,6 +1,4 @@
 # Code contributions list for the thesis "Comparison between joint and marginal laws through label permutations for regression and conditional density estimation" written by Benjamin Riu at Ecole Polytechnique (to be defended soon). 
-### (French version below)
-### Disclaimer: this is a rough draft containing raw informations about my code contributions in my thesis.
 
 ### tl;dr:
 | Relevance | Repository | language |
@@ -15,6 +13,8 @@
 | Stand-alone, Ch2 | [Automated visualization of MLP architectures](ToBeAdded) | French |
 | Stand-alone, Ch4, Ch5 | [Continuous target stratification for train_test_split](ToBeAdded) | english |
 
+### (French version below)
+### Disclaimer: this is a rough draft containing raw informations about my code contributions in my thesis.
 
 The goal of this repository is to provide the links and a quick description for the main projects on which I worked during my thesis. Contributions are somewhat sorted by order of importance/usefullness. For backward compatibility and reproductibility reasons there are nearly duplicates of some files with small variations which are explained below. By default stand-alone versions should be prefered. For informations / remarks/ constructive criticisms, do not hesitate to either raise an issue on git or send an email to riubenjamin at gmail dot com.
 
