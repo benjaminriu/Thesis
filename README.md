@@ -110,9 +110,9 @@ matplotlib (mandatory)
 # Contribution 9 (minor) : [Continuous target stratification for train_test_split](ToBeAdded)
 ### Type : Stand-alone tool
 ### Targeted audience
-Teachers, python Beginners and Experts. People who are creating teaching material for deep learning courses.
+Researchers and Practitionners, python Beginners and Experts. Machine Learners, Data-scientists and Statisticians who use the scikit-learn train\_test\_split function on regression datasets.
 ### Description
-Simple function to stratify a continuous vector, such that the train_test_split function from scikit-learn will generate splits with balanced repartition of high and low target values in each fold. It is included in the FFNN_InitFitPredict project but can have other applications besides deep learning. It is partially based on an answer from cross-validated.com
+Simple function to stratify a continuous vector, such that the train_test_split function from scikit-learn will generate splits with balanced repartition of high and low target values in each fold. It is included in the FFNN\_InitFitPredict project but can have other applications besides deep learning. It is partially based on an answer from cross-validated.com
 ### Relation to my thesis
 It is one part of the "FeedForwardNeuralNetwork" class, which is used in Chapter 4 and 5. 
 ### Main requirements
