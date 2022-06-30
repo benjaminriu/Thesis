@@ -50,7 +50,7 @@ A set of Jupyter Notebooks showing the behavior and impact when using MLR, Tikh.
 ### Relation to my thesis
 Quick empirical introduction/recap of the experiments and intuitions presented in Chapters 1, 3 and 4. Note that the implementation of AdaCap here does not correspond to the stand-alone FFNN_InitFitPredict but instead to AdaCap article experiments replication. The main reason is that some notebooks are duplicates from the two repositories.
 ### Main requirements
-matplotlib (mandatory), pytorch (mandotory except for a)) , cuda & gpu (optional)
+matplotlib (mandatory), pytorch (mandatory except for a)) , cuda & gpu (optional)
 
 # Contribution 4 : [Step-by-step Deep learning introduction](ToBeAdded)
 ### Type : Tutorial
